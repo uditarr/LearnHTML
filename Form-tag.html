@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form tag</title>
+</head>
+<body>
+<h3> Registration Form</h3>
+<form method="post" action="http://localhost:8080/form/submit">
+    <input type="text" placeholder="username" name="name">
+    <br/>
+    <br/>
+
+    <input type="password" placeholder="password" name="password">
+    <br/><br/>
+    <label for="101">
+        <input type="radio" value="M" name="gender" id="101">M
+    </label>
+    <br/><br/>
+    <label for="102">
+        <input type="radio" value="F" name="gender" id="102">F
+    </label>
+    <br/><br/>
+    <b>Pick your fav subject</b>
+    <br/><br/>
+    <label for="maths">
+        <input type="checkbox" value="Maths" name="sub" id="maths">Maths
+    </label>
+    <br/><br/>
+    <label for="phy">
+        <input type="checkbox" value="physics" name="sub" id="phy">physics
+    </label>
+    <br/><br/>
+    <label for="chem">
+        <input type="checkbox" value="chemistry" name="sub" id="chem">chemistry
+    </label>
+    <br/><br/>
+    <label for="Eng">
+        <input type="checkbox" value="English" name="sub" id="Eng">English
+    </label>
+    <br/><br/>
+    <label for="Hindi">
+        <input type="checkbox" value="Hindi" name="sub" id="Hindi">Hindi
+    </label>
+    <br/><br/>
+    <label for="city"></label>
+    <select name="city" id="city">
+        <option>delhi</option>
+        <option>Lucknow</option>
+        <option>Mumbai</option>
+        <option>banglore</option>
+
+    </select>
+
+    <br/><br/>
+
+    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="please provide your feedback here"></textarea>
+
+    <br/><br/>
+    <button type="submit">Submit</button>
+    <br/><br/>
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=P-ceWxbF8CcGNlpv"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</form>
+
+</body>
+</html>
